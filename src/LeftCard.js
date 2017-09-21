@@ -7,6 +7,8 @@ class LeftCard extends Component {
             <div className={'leftCard'}>
                 <div className={'leftDetails'}>
                     <Avatar skypeId={'m.osamabinomar@gmail.com'} size={100} round={true}/>
+                    <h4>Osama Bin Omar</h4>
+                    <i className={"fa fa-github"} aria-hidden={"true"}/>
                 </div>
             </div>
         );
