@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import LeftCard from './LeftCard';
 import styles from './index.css';
+import RightCard from './RightCard';
 
 class HelloReact extends Component {
     render() {
@@ -10,7 +11,7 @@ class HelloReact extends Component {
                 <div id={'left'}><LeftCard/>
                 </div>
                 <div id={'right'}>
-                    <h1>Hello, My name is Osama Bin Omar and I don't like cars.</h1>
+                    <RightCard/>
                 </div>
             </div>
 
